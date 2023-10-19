@@ -1,0 +1,30 @@
+input[type="text"]{
+    padding: 30px;
+    background-color: pink;
+outline: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+#from {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    padding: 0 4px;
+    color:#00BB00;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-size: 2px;
+    margin: -0.7rem 12rem 0 0.5rem;
+}
+input:not(:placeholder-shown)~label,
+inpu :focus-label{
+    top:-8px;
+    font-size: 13px;
+}
+marquee{
+        color: #00bb00;
+        font-size: 40px;
+        margin:-4rem 12rem  0 0.5rem;
+}
